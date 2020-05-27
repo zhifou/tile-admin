@@ -1,0 +1,9 @@
+{
+    "presets": ["@babel/preset-env", "@babel/preset-react"],
+    "plugins": [
+        // 注意decorators插件要写在class-properties前面
+        // decorators插件需要配置legacy为true来兼容以前的装饰器写法
+        ["@babel/plugin-proposal-decorators", { "legacy": true }],
+        ["@babel/plugin-proposal-class-properties", { "legacy": true, "loose": true }]
+    ]
+}
