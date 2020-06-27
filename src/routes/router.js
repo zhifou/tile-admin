@@ -7,6 +7,7 @@ import Detail from '../pages/detail';
 import Theme from '../pages/theme';
 import Color from '../pages/theme/color';
 import Page404 from '../pages/404';
+import Foo from '../pages/foo';
 
 const BasicRoute = () => (
     <HashRouter>
@@ -17,6 +18,7 @@ const BasicRoute = () => (
                     <Route exact path="/theme/color" component={Color} />
                     <Route exact path="/detail/:id" component={Detail} />
                     <Route exact path='/404' component={Page404} />
+                    <Route exact path='/foo' component={Foo} />
                     {/* <Route component={Page404}/> */}
                 </App>
                 

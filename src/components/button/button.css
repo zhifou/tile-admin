@@ -1,0 +1,13 @@
+.dur-c-button {
+    border: 1px solid #333;
+    border-radius: 0.05rem;
+    padding: 0.05rem 0.1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dur-c-button-click {
+    border-color: #ddd;
+    color: #ddd;
+}
